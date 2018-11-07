@@ -1,0 +1,52 @@
+.button {
+  box-sizing: border-box;
+  display: inline-block;
+}
+.button--xl {
+  min-width: 60px;
+  padding: 0 30px;
+}
+.button--l {
+  min-width: 50px;
+  padding: 0 25px;
+}
+.button--m {
+  min-width: 40px;
+  padding: 0 20px;
+}
+.button--s {
+  min-width: 30px;
+  padding: 0 15px;
+}
+.button--xs {
+  min-width: 30px;
+  padding: 0 15px;
+}
+.display-none {
+  display: none;
+}
+.display-block {
+  display: block;
+}
+.display-inline {
+  display: inline;
+}
+.display-inlineBlock {
+  display: inline-block;
+}
+.display-inlineTable {
+  display: inline-table;
+}
+.display-table {
+  display: table;
+  width: 100%;
+}
+.display-tableCell {
+  display: table-cell;
+}
+.display-tableColumn {
+  display: table-column;
+}
+.display-tableRow {
+  display: table-row;
+}
