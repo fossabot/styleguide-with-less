@@ -1,0 +1,50 @@
+// Variables
+// -------------
+
+@borderRadius-l: 10px;
+@borderRadius-m: 4px;
+@borderRadius-s: 3px;
+
+// Equal corners
+// -------------
+
+.borderRadius-l       { border-radius: @borderRadius-l; }
+.borderRadius-m       { border-radius: @borderRadius-m; }
+.borderRadius-s       { border-radius: @borderRadius-s; }
+.borderRadius-0       { border-radius: 0; }
+.borderRadius-circle  { border-radius: 50%; }
+
+// Unequal corners
+// -------------
+
+.borderRadiusTop-l    { border-radius: @borderRadius-l @borderRadius-l 0 0; }
+.borderRadiusTop-m    { border-radius: @borderRadius-m @borderRadius-m 0 0; }
+.borderRadiusTop-s    { border-radius: @borderRadius-s @borderRadius-s 0 0; }
+
+.borderRadiusBottom-l { border-radius: 0 0 @borderRadius-l @borderRadius-l; }
+.borderRadiusBottom-m { border-radius: 0 0 @borderRadius-m @borderRadius-m; }
+.borderRadiusBottom-s { border-radius: 0 0 @borderRadius-s @borderRadius-s; }
+
+.borderRadiusLeft-l   { border-radius: @borderRadius-l 0 0 @borderRadius-l; }
+.borderRadiusLeft-m   { border-radius: @borderRadius-m 0 0 @borderRadius-m; }
+.borderRadiusLeft-s   { border-radius: @borderRadius-s 0 0 @borderRadius-s; }
+
+.borderRadiusRight-l  { border-radius: 0 @borderRadius-l @borderRadius-l 0; }
+.borderRadiusRight-m  { border-radius: 0 @borderRadius-m @borderRadius-m 0; }
+.borderRadiusRight-s  { border-radius: 0 @borderRadius-s @borderRadius-s 0; }
+
+.borderRadiusBottomLeft-l    { border-radius: 0 0 0 @borderRadius-l; }
+.borderRadiusBottomLeft-m    { border-radius: 0 0 0 @borderRadius-m; }
+.borderRadiusBottomLeft-s    { border-radius: 0 0 0 @borderRadius-s; }
+
+.borderRadiusBottomRight-l    { border-radius: 0 0 @borderRadius-l 0; }
+.borderRadiusBottomRight-m    { border-radius: 0 0 @borderRadius-m 0; }
+.borderRadiusBottomRight-s    { border-radius: 0 0 @borderRadius-s 0; }
+
+.borderRadiusTopLeft-l    { border-radius: @borderRadius-l 0 0 0; }
+.borderRadiusTopLeft-m    { border-radius: @borderRadius-m 0 0 0; }
+.borderRadiusTopLeft-s    { border-radius: @borderRadius-s 0 0 0; }
+
+.borderRadiusTopRight-l    { border-radius: 0 @borderRadius-l 0 0; }
+.borderRadiusTopRight-m    { border-radius: 0 @borderRadius-m 0 0; }
+.borderRadiusTopRight-s    { border-radius: 0 @borderRadius-s 0 0; }

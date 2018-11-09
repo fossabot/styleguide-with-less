@@ -1,29 +1,73 @@
 .button {
     box-sizing: border-box;
     .display-inlineBlock();
+    .verticalAlign-middle();
+    .borderWidth-0();
+    .cursor-pointer();
 }
 
 .button--xl {
     min-width: @control-xl;
     padding: 0 @control-xl / 2;
+    .borderRadius-m();
+    .fontSize-l();
+    .height-control--xl();
+    .lineHeight-control--xl();
 }
 
 .button--l {
     min-width: @control-l;
     padding: 0 @control-l / 2;
+    .borderRadius-m();
+    .fontSize-m();
+    .height-control--l();
+    .lineHeight-control--l();
 }
 
 .button--m {
     min-width: @control-m;
     padding: 0 @control-m / 2;
+    .borderRadius-m();
+    .fontSize-m();
+    .height-control--m();
+    .lineHeight-control--m();
 }
 
 .button--s {
     min-width: @control-s;
     padding: 0 @control-s / 2;
+    .borderRadius-s();
+    .fontSize-s();
+    .height-control--s();
+    .lineHeight-control--s();
 }
 
 .button--xs {
     min-width: @control-s;
     padding: 0 @control-s / 2;
+    .borderRadius-s();
+    .fontSize-xs();
+    .height-control--s();
+    .lineHeight-control--s();
+}
+
+
+// Ghost button
+// -------------------------
+
+.button--ghost,
+.button--ghost:visited {
+    .bg-none();
+    .c-slate();
+    //.c-white--hover();
+    .boxShadow-smoke();
+    //.boxShadow-emboss--hover();
+    //.boxShadow-deboss--active();
+}
+
+.button--ghost.is-reversed {
+    .c-white();
+    //.c-black--hover();
+    .boxShadow-white--transparent();
+    //.boxShadow-none--hover();
 }

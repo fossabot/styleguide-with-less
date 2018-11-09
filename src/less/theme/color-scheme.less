@@ -1,0 +1,133 @@
+
+//
+// Tema
+// -------------------------
+
+// 
+
+// Guide
+// -------------------------
+//  Doc -> http://lesscss.org/functions/#color-definition
+
+//  d = Dark  -> darken diminui a luminosidade de uma cor no espaço de cores HSL em uma quantidade absoluta.
+//  l = Light -> lighten aumente a luminosidade da cor.
+//  x = Extra
+// -------------------------
+
+
+// Theme Colors
+// -------------------------
+
+@main: #1fb6ff;
+@green: #13ce66;
+@yellow: #ffc82c;
+@orange: #ff7849;
+@pink: #ff49db;
+@purple: #7e5bef;
+@red: #ff4949;
+
+@main--d: darken(@main, 10%);
+@main--l: lighten(@main, 20%);
+
+@green--d: darken(@green, 10%);
+@green--l: lighten(@green, 10%);
+
+@yellow--d: darken(@yellow, 10%);
+@yellow--l: lighten(@yellow, 10%);
+
+@orange--d: darken(@orange, 10%);
+@orange--l: lighten(@orange, 10%);
+
+@pink--d: darken(@pink, 10%);
+@pink--l: lighten(@pink, 10%);
+
+@purple--d: darken(@purple, 10%);
+@purple--l: lighten(@purple, 10%);
+
+@red--d: darken(@red, 10%);
+@red--l: lighten(@red, 10%);
+
+// Gray Colors
+// -------------------------
+
+@licorice: #000000;
+@black: #1f2d3d;
+@steel: #273444;
+@slate: #3c4858;
+@silver: #8492a6;
+@smoke: #e0e6ed;
+@snow: #f9fafc;
+@white: #fff;
+
+@snow--d: darken(@snow, 3%);
+@snow--xd: darken(@snow, 6%);
+
+@smoke--d: darken(@smoke, 4%);
+@smoke--xd: darken(@smoke, 10%);
+
+// UI colors
+// -------------------------
+
+@blue: @main;
+@positive: @green;
+@negative: @red;
+@warning: @yellow;
+
+@blue--d: @main--d;
+@blue--l: @main--l;
+
+// Transparent Colors
+// -------------------------
+
+@translucent: .98;
+@transparent: .30;
+@pellucid: .15;
+@limpid: .05;
+
+@blue--translucent: rgba(@blue--l, @translucent);
+@blue--transparent: rgba(@blue--l, @transparent);
+@blue--pellucid: rgba(@blue--l, @pellucid);
+@blue--limpid: rgba(@blue--l, @limpid);
+
+@licorice--translucent: rgba(@licorice, @translucent);
+@licorice--transparent: rgba(@licorice, @transparent);
+@licorice--pellucid: rgba(@licorice, @pellucid);
+@licorice--limpid: rgba(@licorice, @limpid);
+
+@black--translucent: rgba(@black, @translucent);
+@black--transparent: rgba(@black, @transparent);
+@black--pellucid: rgba(@black, @pellucid);
+@black--limpid: rgba(@black, @limpid);
+
+@white--translucent: rgba(@white, @translucent);
+@white--transparent: rgba(@white, @transparent);
+@white--pellucid: rgba(@white, @pellucid);
+@white--limpid: rgba(@white, @limpid);
+
+@snow--translucent: rgba(@snow, @translucent);
+@snow--transparent: rgba(@snow, @transparent);
+@snow--pellucid: rgba(@snow, @pellucid);
+@snow--limpid: rgba(@snow, @limpid);
+
+// Social Colors
+// -------------------------
+
+@google: #dc4e41;
+@facebook: #3b5999;
+@linkedin: #0077b5;
+
+// Solarized Light Syntax Highlighting
+// -------------------------
+
+@solarized-base-1: #657b83;
+@solarized-base-2: #a9b6b6; // #93a1a1
+@solarized-green: #859900;
+@solarized-cyan: #2aa198;
+@solarized-blue: #268bd2;
+@solarized-yellow: #b58900;
+@solarized-orange: #cb4b16;
+@solarized-red: #dc322f;
+@solarized-base-3: #eee8d5;
+@solarized-base-4: #073642;
+@solarized-magenta: #d33682;
+

@@ -1,0 +1,38 @@
+// Border box shadows
+// -------------------------
+
+.boxShadow-smoke                        { box-shadow: inset 0 0 0 1px @smoke; }
+.boxShadow-smoke--d                     { box-shadow: inset 0 0 0 1px @smoke--d; }
+.boxShadow-smoke--xd                    { box-shadow: inset 0 0 0 1px @smoke--xd; }
+.boxShadow-negative                     { box-shadow: inset 0 0 0 1px @negative; }
+
+.boxShadow-white--transparent           { box-shadow: inset 0 0 0 1px @white--transparent; }
+
+.boxShadow-black--transparent           { box-shadow: inset 0 0 0 1px @black--transparent; }
+.boxShadow-black--limpid                { box-shadow: inset 0 0 0 1px @black--limpid; }
+
+.boxShadow-outside--black--transparent  { box-shadow: 0px 0px 1px 0px @black--transparent; }
+
+// Large box shadows for modals etc.
+// -------------------------
+
+.boxShadow-distant                      { box-shadow: 0 2px 8px @black--limpid; }
+.boxShadow-close                        { box-shadow: 0 1px 2px 0px @black--pellucid; }
+.boxShadow-subtle                       { box-shadow: 0px 0 1px 1px @black--pellucid; }
+
+// 3D effects for buttons etc.
+// -------------------------
+
+.boxShadow-raise                        { box-shadow: 0 1px 1px 0 @black--limpid; }
+.boxShadow-depress                      { box-shadow: inset 0 1px 1px 0 @black--limpid; }
+.boxShadow-smokeDepress                 { box-shadow: 0 0 0 1px @smoke, inset 0 1px 1px 0 @black--limpid; }
+
+.boxShadow-emboss                       { box-shadow: inset 0 -2px 0 @black--pellucid; }
+.boxShadow-deboss                       { box-shadow: inset 0 2px 0 @black--pellucid; }
+
+.boxShadow-bevelRaise                   { box-shadow: inset 0 1px 0 0 @smoke, inset 1px 0 0 0 @smoke--d, inset -1px 0 0 0 @smoke--d, inset 0 -1px 0 0 @smoke--xd, 0 1px 1px 0 @black--limpid; }
+
+// More
+// -------------------------
+
+.boxShadow-none                         { box-shadow: none; }
