@@ -12,7 +12,7 @@ gulp.task("clean:css", function() {
 gulp.task("build:css", ["clean:css"], function(){ 
     return gulp.src(["src/less/all.less"])
     .pipe(less())
-    //.pipe(minify({}))
+    .pipe(minify({}))
     .pipe(rename("style.css"))
     .pipe(gulp.dest("./dist/css")); 
 }); 
