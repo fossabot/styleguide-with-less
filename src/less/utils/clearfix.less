@@ -2,6 +2,11 @@
 
 //  Micro clearfix to clear floats.
 
+.cf {
+    content: "";
+    .display-table();
+}
+
 .cf:before,
 .cf-after {
     content: "";
