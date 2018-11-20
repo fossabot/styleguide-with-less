@@ -15,4 +15,4 @@
 - [ ] List
 - [ ] Loader  
 - [ ] Popover
-- [ ] Progress bar
+- [ ] Progressbar   
